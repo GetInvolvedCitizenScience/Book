@@ -1,0 +1,52 @@
+--- 
+title: "Get Involved! Becoming a Citizen Scientist"
+author: "Al Fischer"
+date: '`r Sys.Date()`'
+output:
+  bookdown::pdf_book: default
+  bookdown::gitbook:
+    config:
+      download: pdf
+      toc:
+        after: <li><a href="https://bookdown.org"> Published in R with bookdown</a></li>
+        before: <li><a href="index.html">Get Involved!</a></li>
+  pandoc_args:
+  - --number-sections
+  - --number-offset=-1
+link-citations: yes
+documentclass: book
+site: bookdown::bookdown_site
+biblio-style: apalike
+---
+
+# Preface
+
+This guide will help you learn to use Arduino for Citizen Science.
+
+<!--chapter:end:index.Rmd-->
+
+
+# Chapter 2: Blinking LED
+
+<!--chapter:end:01-LEDs.Rmd-->
+
+
+# Chapter 3: Measuring Voltage
+
+<!--chapter:end:02-Voltage.Rmd-->
+
+
+# Chapter 4: Electronics Primer and Signal Transduction
+
+<!--chapter:end:03-Sensors.Rmd-->
+
+
+# Air Quality
+
+<!--chapter:end:04-AirQuality.Rmd-->
+
+
+# Chapter 6: Data Logging
+
+<!--chapter:end:05-DataLogging.Rmd-->
+
